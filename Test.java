@@ -10,6 +10,10 @@ public class Test {
 		for (i = 0; i < 10; i++) {
 			System.out.println("This is first commit for jenkin github trigger");
 		}
+		System.out.println("I am learning Jenkins.");
+		System.out.println("It is awesome!");
+		System.out.println("This sentence will work!");
+
 	}
 
 }
