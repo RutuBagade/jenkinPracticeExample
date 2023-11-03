@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Our Product</h1>
-  <p>Some products are blablabla, some content blablabla.</p>
-  <p>Some content blablabla, some content blablabla.</p>
-  <p>Some content blablabla, some products blablabla.</p>
+<h2>This is information page in website</h2>
 </body>
 </html>

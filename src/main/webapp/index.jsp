@@ -6,6 +6,7 @@
       <li><a href="about.jsp">About </a></li>
       <li><a href="product.jsp">Our Product</a></li>
       <li><a href="contact.jsp">Contact us</a></li>
+        <li><a href="info.jsp">Information</a></li>
     </ul>
 </body>
 </html>
