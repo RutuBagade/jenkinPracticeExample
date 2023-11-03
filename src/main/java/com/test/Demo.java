@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.Stack;
 
 public class Demo {
 
@@ -36,6 +37,34 @@ public class Demo {
 		System.out.println("Iterating Hashmap...");
 		for (Map.Entry m : map.entrySet()) {
 			System.out.println(m.getKey() + " " + m.getValue());
+		}
+
+		System.out.println("Stack Exampls...");
+
+		Stack<String> stack = new Stack<String>();
+		stack.push("Geeks");
+		stack.push("For");
+		stack.push("Geeks");
+		stack.push("Geeks");
+
+		// Iterator for the stack
+		Iterator<String> itr1 = stack.iterator();
+
+		// Printing the stack
+		while (itr1.hasNext()) {
+			System.out.print(itr1.next() + " ");
+		}
+
+		System.out.println();
+
+		stack.pop();
+
+		// Iterator for the stack
+		itr1 = stack.iterator();
+
+		// Printing the stack
+		while (itr1.hasNext()) {
+			System.out.print(itr1.next() + " ");
 		}
 	}
 }
